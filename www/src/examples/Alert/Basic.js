@@ -7,8 +7,8 @@
   'info',
   'light',
   'dark',
-].map((variant, idx) => (
-  <Alert key={idx} variant={variant}>
+].map(variant) => (
+  <Alert key={variant} variant={variant}>
     This is a {variant} alert—check it out!
   </Alert>
 ));
